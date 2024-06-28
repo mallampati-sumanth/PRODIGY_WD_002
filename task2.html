@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Web Application</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="clock">
+        <div class="face">
+            <div class="hour hand" id="hour"></div>
+            <div class="minute hand" id="minute"></div>
+            <div class="second hand" id="second"></div>
+            <div class="center"></div>
+        </div>
+        <div class="time-display" id="time">00:00:00.000</div>
+    </div>
+
+    <div class="buttons">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="save">Save Time</button> <!-- Changed from 'Lap' -->
+    </div>
+    <div class="laps">
+        <ul id="laps"></ul>
+    </div>
+    <marquee>
+        Stopwatch
+    </marquee>
+
+    <script src="task2.js"></script>
+</body>
+</html>
